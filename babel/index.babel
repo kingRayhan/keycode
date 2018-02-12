@@ -1,8 +1,0 @@
-'use strict';
-var body = document.querySelector('body');
-body.addEventListener('keydown' , e => {
-	const key = document.querySelector('.key');
-	const keyCode = document.querySelector('.keycode-display');
-	key.innerHTML = e.key;
-	keyCode.innerHTML = e.keyCode;
-});
